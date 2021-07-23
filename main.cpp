@@ -1,5 +1,5 @@
 #include <iostream>
 
-int main(){
-    std::cout << "smth\n";
+auto main() -> int{
+    std::cout << "fuck you\n";
 }
