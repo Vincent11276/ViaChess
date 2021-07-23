@@ -3,5 +3,5 @@
 auto main() -> int{
     std::cout << "fuck you >:[\n";
 
-    // LINE 6
+    // LINNE 6...
 }
