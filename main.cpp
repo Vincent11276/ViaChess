@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <array>
+#include <vector>
 
 
 enum Pieces
@@ -24,7 +24,7 @@ enum Pieces
 class Board
 {
 public:
-    static std::array<std::array<int, 8>, 8> board;
+    static std::vector<std::vector<int>> board;
 
     Board()
     {
@@ -32,12 +32,12 @@ public:
     }
 };
 
-std::array<std::array<int, 8>, 8> Board::board = {
+std::vector<std::vector<int>> Board::board = {
     // Write the board here...or?
 };
 
 class Chess {
-    
+
 };
 
 int main(){
