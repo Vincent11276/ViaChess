@@ -1,7 +1,12 @@
 #include <iostream>
 
-auto main() -> int{
-    std::cout << "fuck you >:[\n";
+class Chess{
+    public:
+        Chess(){
+            
+        }
+};
 
-    // LINNE 6...
+int main(){
+    return 1;
 }
