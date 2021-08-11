@@ -4,7 +4,6 @@
 class Chess{
     public:
         // Code
-        void GayGenerator(std::string &name);
 };
 
 int main(){
