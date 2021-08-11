@@ -24,12 +24,16 @@ enum Pieces
 class Board
 {
 public:
-    std::array<std::array<int, 8>, 8> board;
+    static std::array<std::array<int, 8>, 8> board;
 
     Board()
     {
 
     }
+};
+
+std::array<std::array<int, 8>, 8> Board::board = {
+    // Write the board here...or?
 };
 
 class Chess {
