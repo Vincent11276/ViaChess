@@ -1,7 +1,9 @@
 #include <iostream>
 
-auto main() -> int{
-    std::cout << "fuck you >:[\n";
 
-    std::cout << "fuck you too (conflict) >:[\n";
+int main()
+{
+    std::cout << "Hello World 2021!" << std::endl;
+
+    return EXIT_SUCCESS;
 }
