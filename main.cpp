@@ -18,13 +18,13 @@ enum Pieces
     WhiteRook,
     WhiteQueen,
     WhiteKing,
-}
+};
 
 
 class Board
 {
 public:
-    std::array<std::array<>, 8> board;
+    std::array<std::array<int, 8>, 8> board;
 
     Board()
     {
