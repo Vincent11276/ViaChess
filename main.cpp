@@ -18,29 +18,49 @@ enum Pieces
     WhiteRook,
     WhiteQueen,
     WhiteKing,
+
+    None,
 };
 
+
+enum Color
+{
+    Black,
+    White
+};
 
 class Board
 {
 public:
-    static std::vector<std::vector<int>> board;
+    std::vector<std::vector<int>> board;
+
+    void initBoard(Color perspective); 
 };
 
-std::vector<std::vector<int>> Board::board = {
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {}
-};
 
-class Chess {
+void Board::initBoard(Color perspective)
+{
+    if (perspective == Color::Black)
+    {
+        board
+        {
 
-};
+            {0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 },
+            {12, 12, 12, 12, 12, 12, 12, 12},
+            {12, 12, 12, 12, 12, 12, 12, 12},
+            {12, 12, 12, 12, 12, 12, 12, 12},
+            {12, 12, 12, 12, 12, 12, 12, 12},
+
+        };
+        
+
+    }
+    else
+    {
+
+    }
+}
+
 
 int main(){
     return 0;
