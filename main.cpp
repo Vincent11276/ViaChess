@@ -42,7 +42,7 @@ void Board::initBoard(Color perspective)
 {
     if (perspective == Color::Black)
     {
-        board
+        board =
         {
 
             {0 , 0 , 0 , 0 , 0 , 0 , 0 , 0 },
@@ -53,10 +53,6 @@ void Board::initBoard(Color perspective)
 
         };
         
-
-    }
-    else
-    {
 
     }
 }
