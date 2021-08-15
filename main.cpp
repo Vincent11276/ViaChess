@@ -77,6 +77,8 @@ public:
 
     void movePiece(Vec2i target, Vec2i desired);
 
+    bool checkmate();
+
     bool isMoveValid(Vec2i target, Vec2i desired);
 
     void dump();
@@ -161,6 +163,10 @@ bool Chess::isMoveValid(Vec2i target, Vec2i desired)
       // Default == Pieces::None
   }
   return false; // False as default return_value
+}
+
+bool Chess::checkmate(){
+
 }
 
 
