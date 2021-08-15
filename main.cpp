@@ -118,6 +118,7 @@ void Chess::initWhite()
 
 bool Chess::isMoveValid(Vec2i target, Vec2i desired)
 {
+  if(desired.y>=this->board.size()||desired.x>=this->board.at(0).size()||target.y>=this->board.size()||target.x>=this->board.at(0).size()) return false;
   switch((*this).board.at(target.y).at(target.x)){
     case Pieces::BlackPawn:
       // Code
